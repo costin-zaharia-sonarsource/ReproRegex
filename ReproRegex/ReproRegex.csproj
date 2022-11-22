@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>netcoreapp2.1;netcoreapp3.1;net46;net5.0</TargetFrameworks>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ReproRegex.Lib\ReproRegex.Lib.csproj" />
+    </ItemGroup>
+
+</Project>
